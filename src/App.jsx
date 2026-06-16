@@ -250,8 +250,8 @@ function Pillars({ onCTA }) {
     <section id="pillars" className="pt-10 pb-20 px-6 bg-z-paper">
       <div className="max-w-[1140px] mx-auto">
         <FadeUp>
-          <h2 className="text-[clamp(28px,3.5vw,40px)] font-bold text-z-ink mb-2 leading-tight">One offer. Two pillars. Real outcomes.</h2>
-          <p className="text-z-cadet text-lg mb-12">We meet you where the work happens — building with your teams, then enabling them to run without us.</p>
+          <h2 className="text-[clamp(28px,3.5vw,40px)] font-bold text-z-ink mb-2 leading-tight text-center">One offer. Two pillars. Real outcomes.</h2>
+          <p className="text-z-cadet text-lg mb-12 text-center">We meet you where the work happens — building with your teams, then enabling them to run without us.</p>
         </FadeUp>
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           {/* Pillar A */}
