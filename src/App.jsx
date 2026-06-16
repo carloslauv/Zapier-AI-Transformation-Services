@@ -174,7 +174,7 @@ function ZapierLogo() {
 
 function Hero({ onCTA }) {
   return (
-    <section className="pt-32 pb-20 px-6 bg-z-paper">
+    <section className="pt-32 pb-0 px-6 bg-z-paper">
       <div className="max-w-[1140px] mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <FadeUp>
@@ -250,7 +250,7 @@ function Pillars({ onCTA }) {
     'Refine, then enable the rest of the org.',
   ]
   return (
-    <section id="pillars" className="py-20 px-6 bg-z-paper">
+    <section id="pillars" className="pt-10 pb-20 px-6 bg-z-paper">
       <div className="max-w-[1140px] mx-auto">
         <FadeUp>
           <h2 className="text-[clamp(28px,3.5vw,40px)] font-bold text-z-ink mb-2 leading-tight">One offer. Two pillars. Real outcomes.</h2>
