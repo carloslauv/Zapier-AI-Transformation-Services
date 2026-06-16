@@ -133,7 +133,7 @@ function Nav({ onCTA }) {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 shrink-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-z-orange rounded">
           <ZapierLogo />
-          <span className="text-z-cadet text-sm font-medium hidden sm:inline">AI Transformation Services</span>
+          <span className="text-z-cadet text-sm font-medium hidden sm:inline">AI Transformation Solutions</span>
         </a>
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-z-ink">
@@ -187,12 +187,12 @@ function Hero({ onCTA }) {
           </FadeUp>
           <FadeUp delay={80}>
             <h1 className="text-[clamp(36px,5vw,64px)] font-extrabold text-z-ink leading-[1.05] mb-6">
-              Don't just adopt AI.<br className="hidden sm:block" /> Ship it across your enterprise.
+              Zapier AI Transformation Solution
             </h1>
           </FadeUp>
           <FadeUp delay={160}>
             <p className="text-lg text-z-cadet leading-relaxed mb-8 max-w-2xl mx-auto">
-              Zapier AI Transformation Services pairs hands-on enablement with embedded product experts — so your teams turn AI from pilots into governed, ROI-positive workflows running on the apps you already use.
+              Our AI Transformation Solution pairs hands-on enablement with embedded product experts, so your teams turn AI from pilots into governed, ROI driven workflows running on the apps you already use.
             </p>
           </FadeUp>
           <FadeUp delay={240}>
