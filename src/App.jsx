@@ -202,9 +202,6 @@ function Hero({ onCTA }) {
             <p className="text-sm text-z-cadet">Built on the most connected AI orchestration platform · 9,000+ apps · Enterprise-grade governance</p>
           </FadeUp>
         </div>
-        <FadeUp delay={320}>
-          <HeroSVG />
-        </FadeUp>
       </div>
     </section>
   )
@@ -300,6 +297,18 @@ function Pillars({ onCTA }) {
           <div className="bg-z-orange/8 border border-z-orange/20 rounded-2xl px-8 py-5 text-center text-sm text-z-ink font-medium">
             <span className="text-z-orange font-bold">Services</span> surface use cases → use cases drive <span className="text-z-orange font-bold">expansion</span> and product → a sharper platform makes the <span className="text-z-orange font-bold">next build faster</span>
           </div>
+        </FadeUp>
+      </div>
+    </section>
+  )
+}
+
+function GovernedVisual() {
+  return (
+    <section className="py-12 px-6 bg-z-paper">
+      <div className="max-w-[1140px] mx-auto">
+        <FadeUp>
+          <HeroSVG />
         </FadeUp>
       </div>
     </section>
@@ -515,6 +524,7 @@ export default function App() {
       <main>
         <Hero onCTA={setModal} />
         <Pillars onCTA={setModal} />
+        <GovernedVisual />
         <Problem />
         <HowItWorks />
         <WhyZapier />
