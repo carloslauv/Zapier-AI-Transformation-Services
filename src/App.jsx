@@ -519,8 +519,8 @@ export default function App() {
       <Nav onCTA={setModal} />
       <main>
         <Hero onCTA={setModal} />
-        <Problem />
         <Pillars onCTA={setModal} />
+        <Problem />
         <HowItWorks />
         <WhyZapier />
         <Outcomes onCTA={setModal} />
