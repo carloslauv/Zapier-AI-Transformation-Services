@@ -292,12 +292,6 @@ function Pillars({ onCTA }) {
             </div>
           </FadeUp>
         </div>
-        {/* Flywheel strip */}
-        <FadeUp delay={200}>
-          <div className="bg-z-orange/8 border border-z-orange/20 rounded-2xl px-8 py-5 text-center text-sm text-z-ink font-medium">
-            <span className="text-z-orange font-bold">Services</span> surface use cases → use cases drive <span className="text-z-orange font-bold">expansion</span> and product → a sharper platform makes the <span className="text-z-orange font-bold">next build faster</span>
-          </div>
-        </FadeUp>
       </div>
     </section>
   )
